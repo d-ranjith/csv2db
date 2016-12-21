@@ -1,0 +1,17 @@
+{
+  "name": "docker_csv2db",
+  "version": "1.0.0",
+  "description": "csv2db on Docker",
+  "author": "Ranjith D <xxx@abc.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3",
+    "multer": "^1.2.1",
+    "mysql": "^2.5.4",
+    "ya-csv": "0.10.1"
+  }
+}
